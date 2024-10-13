@@ -1,0 +1,54 @@
+
+
+{
+    "service": [
+        {
+            "shopkeeper": [
+                {
+                    "id": 1,
+                    "title": "Shopkeeper",
+                    "image": ""
+                },
+                {
+                    "id": 2,
+                    "title": "Website and App Development",
+                    "image": ""
+                },
+                {
+                    "id": 3,
+                    "title": "Award From Actors",
+                    "image": ""
+                },
+                {
+                    "id": 4,
+                    "title": "E-Commerce Photoshop",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "youtube": [
+                {
+                    "id": 1,
+                    "title": "Youtubers Number",
+                    "image": ""
+                },
+                {
+                    "id": 2,
+                    "title": "Website and App Development",
+                    "image": ""
+                },
+                {
+                    "id": 3,
+                    "title": "Awards and Events",
+                    "image": ""
+                },
+                {
+                    "id": 4,
+                    "title": "E-Commerce",
+                    "image": ""
+                }
+            ]
+        }
+    ]
+}

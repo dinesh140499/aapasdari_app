@@ -1,0 +1,1219 @@
+{
+	"info": {
+		"_postman_id": "91e71c9f-4123-4f87-8971-4831c5375ba1",
+		"name": "Aapasdari",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22130871"
+	},
+	"item": [
+		{
+			"name": "shopkeeper -- create",
+			"item": [
+				{
+					"name": "CreateAc",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "shop1",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "shop1@mail.com",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "1111111111",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "shop_name",
+									"value": "shopkeeper",
+									"type": "text"
+								},
+								{
+									"key": "shop_ads",
+									"value": "rohini",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "shop",
+									"type": "text"
+								},
+								{
+									"key": "screenshot",
+									"type": "file",
+									"src": "/C:/Users/loveu/Downloads/DU hritik id card.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/api/shop/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"api",
+								"shop",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Otp Verify",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"phone\":\"7836008553\",\r\n    \"otp\":\"2110\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/api/shop/otp",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"api",
+								"shop",
+								"otp"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "youtube -- create",
+			"item": [
+				{
+					"name": "CreateAc",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "youtube1",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "youtube1@mail.com",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "1111111111",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "1200",
+									"type": "text"
+								},
+								{
+									"key": "discount",
+									"value": "10",
+									"type": "text"
+								},
+								{
+									"key": "channel_name",
+									"value": "cooking",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "this is cooking channel",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "rohini",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "cpassword",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "link",
+									"value": "https://www.google.com",
+									"type": "text"
+								},
+								{
+									"key": "screenshot",
+									"type": "file",
+									"src": "/C:/Users/loveu/Downloads/DU hritik id card.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/api/youtube/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"api",
+								"youtube",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Otp Verify",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"phone\":\"7836008553\",\r\n    \"otp\":\"9524\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/api/youtube/otp",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"api",
+								"youtube",
+								"otp"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "guest -- create",
+			"item": [
+				{
+					"name": "CreateAc",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "guest1",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "guest1@mail.com",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "1111111111",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "link",
+									"value": "http://www.google.com",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "rohini",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "this is my guest account",
+									"type": "text"
+								},
+								{
+									"key": "screenshot",
+									"type": "file",
+									"src": "/C:/Users/loveu/Downloads/DU hritik id card.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/api/guest/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"api",
+								"guest",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Otp Verify",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"phone\":\"7836008553\",\r\n    \"otp\":\"0928\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/api/guest/otp",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"api",
+								"guest",
+								"otp"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin",
+			"item": [
+				{
+					"name": "Create -- Admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"admin@mail.com\",\r\n    \"password\":\"123456789\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/admin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"admin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login -- Admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"admin@mail.com\",\r\n    \"password\":\"123456789\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/admin/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"admin",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Welcome -- Admin",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/admin/welcome",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"admin",
+								"welcome"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All Created User -- Admin",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/admin/allusers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"admin",
+								"allusers"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "shopkeeper",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "shop1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Welcome Shopkeeper -- Admin Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/admin/shopkeeper",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"admin",
+								"shopkeeper"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Welcome Youtuber -- Admin",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/admin/youtube",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"admin",
+								"youtube"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Welcome Guest -- Admin",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/admin/guest",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"admin",
+								"guest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout -- Admin",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/admin/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"admin",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/admin/userid/65893d6229e0c40ff884c33a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"admin",
+								"userid",
+								"65893d6229e0c40ff884c33a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "wishlist",
+			"item": [
+				{
+					"name": "Add To Wishlist",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"wishlist_id\": \"657da3999f69faa2942f118f\", //Get All Wishlist Id\r\n    \"userId\": \"657da31d9f69faa2942f116b\", //logged userid\r\n    \"wishlist_action\":\"add\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/api/user/welcome/wishlist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"api",
+								"user",
+								"welcome",
+								"wishlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Wishlist -- Logged User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"657da3999f69faa2942f118f\" //logged userid\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/api/user/wishlists",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"api",
+								"user",
+								"wishlists"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "notification",
+			"item": [
+				{
+					"name": "Notification Action",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"658019f7d307fe43a105d60f\", // user login Id\r\n    \"profile_Id\": \"65801a6fd307fe43a105d633\", //profile id\r\n    \"offer\":\"20\",\r\n    \"action\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/api/user/offeraction",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"api",
+								"user",
+								"offeraction"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Offer Notification",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"658019f7d307fe43a105d60f\", // user login Id\r\n    \"profile_Id\": \"65801a6fd307fe43a105d633\", //profile id\r\n    \"offer\":\"20\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/api/user/offernotification",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"api",
+								"user",
+								"offernotification"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "payment gateway -- process",
+			"item": [
+				{
+					"name": "Payment Gateway",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"dinesh@mail.com\",\r\n    \"password\":\"123456789\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/api/payment/gateway",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"api",
+								"payment",
+								"gateway"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Event",
+			"item": [
+				{
+					"name": "Create Event",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "event2",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "delhi",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "insta fest",
+									"type": "text"
+								},
+								{
+									"key": "screenshot",
+									"type": "file",
+									"src": "/D:/Ignou degree recipt.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/event/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"event",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Event",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/event/65896e25c3f87d9798fee014",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"event",
+								"65896e25c3f87d9798fee014"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Events -- Admin",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/aapasdari/event",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"aapasdari",
+								"event"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Login Here",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"shop1@mail.com\",\r\n    \"password\":\"123456789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/aapasdari/api/user/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"aapasdari",
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Timestamp Visitor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"timestamp\":\"\",\r\n    \"action\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/aapasdari/api/user/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"aapasdari",
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login > Welcome",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"type\":\"shopkeeper\",\r\n    \"userId\":\"65853c8ee929439f27eb8ca5\", //logged userId\r\n    \"fcm_token\":\"fXenS9SIQc6iJd29oev9Xt:APA91bFlFfqERH2ezpVuZ9iw2b9TY4CUHm-5onbzaShQI6lMHgNFhFjQ7C7-kk9prxtdzC5PIg_0btnY6ovx7thdm9rSqkq1Z_DcQ-oLWnnF31PbCJHNHLbQsi6yy9AvL1i9yXUwepdF\" // fcm token generated from client side\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/aapasdari/api/user/welcome",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"aapasdari",
+						"api",
+						"user",
+						"welcome"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Welcome > Choose",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Youtubers Number\",\r\n    \"accType\": \"youtube\",\r\n    \"userId\":\"65853c8ee929439f27eb8ca5\" //logged userId\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/aapasdari/api/user/welcome/choose",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"aapasdari",
+						"api",
+						"user",
+						"welcome",
+						"choose"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Welcome > User Profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"657da31d9f69faa2942f116b\" //logged userId\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/aapasdari/api/user/welcome/userProfile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"aapasdari",
+						"api",
+						"user",
+						"welcome",
+						"userProfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Choose > Select Type",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":\"657da3b99f69faa2942f11a1\",\r\n    \"type\":\"youtube\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/aapasdari/api/user/welcome/selectType",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"aapasdari",
+						"api",
+						"user",
+						"welcome",
+						"selectType"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Logged User Profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"6572ea583323efe27fff01a7\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/aapasdari/api/user/profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"aapasdari",
+						"api",
+						"user",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Login Profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"6572ea583323efe27fff01a7\",\r\n    \"name\": \"ashu\",\r\n    \"email\": \"ashu@mail.com\",\r\n    \"previous_password\":\"123456789\",\r\n    \"password\": \"987654321\",\r\n    \"shop_name\": \"cafe\",\r\n    \"shop_ads\": \"rohini\",\r\n    \"type\": \"shopkeeper\",\r\n    \"category\": \"market\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/aapasdari/api/user/update/profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"aapasdari",
+						"api",
+						"user",
+						"update",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/aapasdari/api/user/logout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"aapasdari",
+						"api",
+						"user",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
